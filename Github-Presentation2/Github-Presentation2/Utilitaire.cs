@@ -9,5 +9,10 @@ namespace Github_Presentation2
     class Utilitaire
     {
         static Random RandomGenerator = new Random();
+
+        public static int GenerateInt(int min, int max)
+        {
+            return RandomGenerator.Next(min, max);
+        }
     }
 }
