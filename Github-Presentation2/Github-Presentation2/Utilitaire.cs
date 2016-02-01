@@ -13,6 +13,11 @@ namespace Github_Presentation2
         public static int GenerateInt(int min, int max)
         {
             return RandomGenerator.Next(min, max);
+	}
+        
+        public static void ÉcrireBonjour()
+        {
+            Console.Writeline("bonjour");
         }
     }
 }
