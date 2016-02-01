@@ -9,5 +9,10 @@ namespace Github_Presentation2
     class Utilitaire
     {
         static Random RandomGenerator = new Random();
+        
+        public static void ÉcrireBonjour()
+        {
+            Console.Writeline("bonjour");
+        }
     }
 }
