@@ -10,6 +10,7 @@ namespace Github_Presentation2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("bonjour");
         }
     }
 }
