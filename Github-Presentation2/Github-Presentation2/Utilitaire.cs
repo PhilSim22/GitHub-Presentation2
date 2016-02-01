@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Github_Presentation2
 {
-    class Program
+    class Utilitaire
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("bonjour");
-        }
+        static Random RandomGenerator = new Random();
     }
 }
